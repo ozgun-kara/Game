@@ -1,0 +1,10 @@
+C:\Users\Ozgun\source\repos\Game\Game\bin\Debug\Game.exe.config
+C:\Users\Ozgun\source\repos\Game\Game\bin\Debug\Game.exe
+C:\Users\Ozgun\source\repos\Game\Game\bin\Debug\Game.pdb
+C:\Users\Ozgun\source\repos\Game\Game\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\Ozgun\source\repos\Game\Game\obj\Debug\Game.Game.resources
+C:\Users\Ozgun\source\repos\Game\Game\obj\Debug\Game.Properties.Resources.resources
+C:\Users\Ozgun\source\repos\Game\Game\obj\Debug\Game.csproj.GenerateResource.cache
+C:\Users\Ozgun\source\repos\Game\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\Ozgun\source\repos\Game\Game\obj\Debug\Game.exe
+C:\Users\Ozgun\source\repos\Game\Game\obj\Debug\Game.pdb
