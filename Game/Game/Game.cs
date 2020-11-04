@@ -11,10 +11,14 @@ namespace Game
 
         public Game()
         {
-            Random rand = new Random(); 
-            targetValue = rand.Next(1000, 10000);   
-
             InitializeComponent();
+            generateNumber();
+        }
+
+        void generateNumber()
+        {
+            Random rand = new Random();
+            targetValue = rand.Next(1000, 10000);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -31,7 +35,7 @@ namespace Game
             string inputValue = textBox1.Text;
             List<String> outputList = new List<String>();
 
-            // Target 
+            // Target Sequence Generation
             char[] targetArray = new char[targetValue1.Length];
 
             for (int i = 0; i < targetValue1.Length; i++)
@@ -39,8 +43,7 @@ namespace Game
                 targetArray[i] = targetValue1[i];
             }
 
-
-            // Input
+            // Input Sequence Generation
             char[] inputArray = new char[inputValue.Length];
 
             for (int i = 0; i < inputValue.Length; i++)
@@ -102,13 +105,16 @@ namespace Game
             ListViewItem item = new ListViewItem(targetValue1);
             item.SubItems.Add(inputValue);
             item.SubItems.Add(result);
+
             listView1.Items.Add(item);
             outputList.Clear();
         }
 
         private void YeniOyun_Click(object sender, EventArgs e)
         {
-            Application.Restart();
+            textBox1.Clear();
+            listView1.Items.Clear();
+            generateNumber();
         }
 
         private void TextBox1_KeyPress(object sender, KeyPressEventArgs e)
